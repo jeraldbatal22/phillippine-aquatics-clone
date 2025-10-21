@@ -9,6 +9,7 @@ import { useMobileMenu } from "../../hooks/useMobileMenu";
 import DropdownMenu from "./DropdownMenu";
 import MobileMenu from "./MobileMenu";
 import { CONTACT_INFO, DROPDOWN_DATA, MOBILE_MENU_ITEMS } from "@/constants";
+import Image from "next/image";
 
 const Navigation = () => {
   const isScrolled = useScroll();
@@ -25,17 +26,20 @@ const Navigation = () => {
         <div className="flex justify-between items-center py-3 lg:py-4">
           {/* Logo */}
           <div className="flex items-center space-x-2 lg:space-x-3">
-            <div className="w-10 h-10 lg:w-12 lg:h-12 bg-linear-to-br from-yellow-400 to-blue-600 rounded-full flex items-center justify-center">
+            {/* <div className="w-10 h-10 lg:w-12 lg:h-12 bg-linear-to-br from-yellow-400 to-blue-600 rounded-full flex items-center justify-center">
               <div className="w-6 h-6 lg:w-8 lg:h-8 bg-white rounded-full flex items-center justify-center">
                 <div className="w-3 h-3 lg:w-4 lg:h-4 bg-blue-600 rounded-full"></div>
               </div>
-            </div>
+            </div> */}
             <div>
+              <Image src="/assets/images/ilocos-sur-provincial-seal.png" alt="ilocos-sur-provincial-seal" height={80} width={80}/>
+            </div>
+            {/* <div>
               <h1 className="text-lg lg:text-xl font-bold text-[#1e3a8a] leading-tight">
-                <span className="hidden sm:inline">PHILIPPINE AQUATICS</span>
+                <span className="hidden sm:inline">Ilocos Sur</span>
                 <span className="sm:hidden">PAI</span>
               </h1>
-            </div>
+            </div> */}
           </div>
 
           {/* Desktop Menu */}
