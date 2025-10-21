@@ -5,13 +5,10 @@ import { motion } from "framer-motion";
 import { useScroll } from "../../hooks/useScroll";
 import { useDropdown } from "../../hooks/useDropdown";
 import { useMobileMenu } from "../../hooks/useMobileMenu";
-import {
-  DROPDOWN_DATA,
-  MOBILE_MENU_ITEMS,
-  CONTACT_INFO,
-} from "../../constants/data";
+
 import DropdownMenu from "./DropdownMenu";
 import MobileMenu from "./MobileMenu";
+import { CONTACT_INFO, DROPDOWN_DATA, MOBILE_MENU_ITEMS } from "@/constants";
 
 const Navigation = () => {
   const isScrolled = useScroll();

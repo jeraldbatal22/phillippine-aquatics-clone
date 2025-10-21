@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import { Play, Volume2, Share2, Clock, Pause } from "lucide-react";
+import {Volume2, Share2, Clock, } from "lucide-react";
 import { motion } from "framer-motion";
 import {
   Carousel,
@@ -10,13 +10,12 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import { Button } from "@/components/ui/button";
-import { HERO_SLIDES, HeroSlide } from "../constants/heroData";
 import Autoplay from "embla-carousel-autoplay";
+import { HERO_SLIDES, HeroSlide } from "@/constants";
 
 const HeroCarousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const [isPlaying, setIsPlaying] = useState(true);
+  // const [isPlaying, setIsPlaying] = useState(true);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [api, setApi] = useState<any>(null);
 
@@ -35,9 +34,9 @@ const HeroCarousel = () => {
     };
   }, [api]);
 
-  const togglePlayPause = () => {
-    setIsPlaying(!isPlaying);
-  };
+  // const togglePlayPause = () => {
+  //   setIsPlaying(!isPlaying);
+  // };
 
   const HeroSlide = ({ slide }: { slide: HeroSlide; index: number }) => (
     <div className="relative h-[60vh] sm:h-[70vh] overflow-hidden">
@@ -86,7 +85,7 @@ const HeroCarousel = () => {
           </div>
 
           {/* Action Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+          {/* <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             {slide.isVideo ? (
               <motion.button
                 className="w-16 h-16 sm:w-20 sm:h-20 bg-red-600 rounded-full flex items-center justify-center shadow-2xl hover:bg-red-700 transition-colors group"
@@ -116,7 +115,7 @@ const HeroCarousel = () => {
             >
               Learn More
             </Button>
-          </div>
+          </div> */}
         </motion.div>
       </div>
 
