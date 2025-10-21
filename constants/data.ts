@@ -68,7 +68,7 @@ export const FAQ_DATA: FAQItem[] = [
   },
   {
     question: "Where to send the completed forms?",
-    answer: "Completed forms should be submitted to our main office at Rizal Memorial Sports Complex, Manila or via email to membership@philippineaquatics.org"
+    answer: "Completed forms should be submitted to our main office at Rizal Memorial Sports Complex, Manila or via email to membership@ilocos_sur.org"
   },
   {
     question: "Important Reminders",
@@ -86,15 +86,15 @@ export const MOBILE_MENU_ITEMS: MenuItem[] = [
 ];
 
 export const CONTACT_INFO = {
-  location: "Manila, Philippines",
-  email: "philippineaquatics@gmail.com",
+  location: "Manila, Ilocos Sur",
+  email: "ilocos_sur@gmail.com",
   phone: "+63 2 1234 5678"
 };
 
 export const PARTNER_ORGANIZATIONS = [
-  "Philippine Olympic Committee",
-  "World Aquatics", 
-  "Philippine Sports Commission",
+  "Ilocos Sur Olympic Committee",
+  "World  ", 
+  "Ilocos Sur Sports Commission",
   "Speedo",
-  "Congress of the Philippines"
+  "Congress of the Ilocos Sur"
 ];

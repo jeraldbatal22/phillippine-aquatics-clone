@@ -15,9 +15,9 @@ export interface HeroSlide {
 export const HERO_SLIDES: HeroSlide[] = [
   {
     id: "swimming-championships",
-    title: "Philippine Aquatics",
+    title: "Ilocos Sur",
     subtitle: "United by Water",
-    description: "Watch our latest swimming competitions and water polo matches featuring the best athletes from the Philippines",
+    description: "Watch our latest swimming competitions and water polo matches featuring the best athletes from the Ilocos Surs",
     buttonText: "Watch Now",
     buttonLink: "#",
     backgroundImage: "https://images.unsplash.com/photo-1530549387789-4c1017266635?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80",

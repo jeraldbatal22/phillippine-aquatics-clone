@@ -62,10 +62,10 @@ const MembershipSection = ({ faqData }: MembershipSectionProps) => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
           {/* Left Side */}
           <div className="text-center lg:text-left">
-            <p className="text-blue-200 text-sm mb-2">Philippine Aquatics Membership</p>
+            <p className="text-blue-200 text-sm mb-2">Ilocos Sur Membership</p>
             <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white mb-4 lg:mb-6">How to be a member?</h2>
             <p className="text-blue-100 text-base sm:text-lg leading-relaxed">
-              To all current members and those who wish to become part of Philippine Aquatics, Inc., 
+              To all current members and those who wish to become part of Ilocos Sur  , Inc., 
               please be guided by the official steps for Membership Renewal and New Registration for 2025!
             </p>
           </div>

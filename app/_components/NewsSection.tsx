@@ -17,7 +17,7 @@ const newsItems: NewsItem[] = [
   {
     id: "water-polo-championships",
     title: "66th Malaysia Open Water Polo Championships",
-    description: "The Philippine men's water polo team showcased exceptional performance, demonstrating skill and determination throughout the competition.",
+    description: "The Ilocos Sur men's water polo team showcased exceptional performance, demonstrating skill and determination throughout the competition.",
     buttonText: "Read More",
     gradientFrom: "from-blue-500",
     gradientTo: "to-blue-700",
@@ -25,7 +25,7 @@ const newsItems: NewsItem[] = [
   },
   {
     id: "women-water-polo",
-    title: "Congratulations to the Philippine Women's Open Water Polo Team!",
+    title: "Congratulations to the Ilocos Sur Women's Open Water Polo Team!",
     description: "Our women's team secured a silver medal, showcasing incredible teamwork and dedication in the international competition.",
     buttonText: "Read More",
     gradientFrom: "from-pink-500",
@@ -34,7 +34,7 @@ const newsItems: NewsItem[] = [
   },
   {
     id: "swimming-tryouts",
-    title: "Philippine Aquatics Open Water Swimming Tryouts 2025",
+    title: "Ilocos Sur Open Water Swimming Tryouts 2025",
     description: "Join us for the upcoming tryouts on August 30-31, 2025. Multiple distances available: 10KM, 5KM, and 3KM categories.",
     buttonText: "Register Now",
     gradientFrom: "from-cyan-500",
@@ -76,7 +76,7 @@ const NewsSection = () => {
         {/* Section Title for Mobile */}
         <div className="text-center mb-8 lg:hidden">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">Latest News & Events</h2>
-          <p className="text-gray-600">Stay updated with Philippine Aquatics</p>
+          <p className="text-gray-600">Stay updated with Ilocos Sur  </p>
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">

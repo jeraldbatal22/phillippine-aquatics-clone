@@ -71,7 +71,7 @@ const RankingsSection = () => {
       
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="text-center mb-8 sm:mb-12">
-          <p className="text-blue-200 text-sm mb-2">Philippine Aquatics, Inc</p>
+          <p className="text-blue-200 text-sm mb-2">Ilocos Sur, Inc</p>
           <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">Meet Results and Rankings</h2>
         </div>
 

@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Philippine Aquatics - United by Water",
-  description: "Official website of Philippine Aquatics, Inc. - Promoting swimming, water polo, and aquatic sports in the Philippines.",
+  title: "Ilocos Sur - United by Water",
+  description: "Official website of Ilocos Sur  , Inc. - Promoting swimming, water polo, and aquatic sports in the Ilocos Surs.",
 };
 
 export default function RootLayout({
