@@ -26,7 +26,7 @@ const Header = () => {
               <Linkedin className="w-4 h-4 hover:text-blue-300 cursor-pointer transition-colors" />
               <Instagram className="w-4 h-4 hover:text-blue-300 cursor-pointer transition-colors" />
             </div>
-            <span className="text-xs font-medium">UNITED BY WATER</span>
+            <span className="text-xs font-medium">PROVINCIAL SPORTS DEVELOPMENT</span>
           </div>
         </div>
 
@@ -35,7 +35,7 @@ const Header = () => {
           <div className="flex items-center space-x-3">
             <div className="flex items-center space-x-1">
               <MapPin className="w-3 h-3" />
-              <span>Manila, PH</span>
+              <span>Vigan, PH</span>
             </div>
             <div className="flex items-center space-x-1">
               <Mail className="w-3 h-3" />
@@ -50,7 +50,7 @@ const Header = () => {
               <Linkedin className="w-3 h-3 hover:text-blue-300 cursor-pointer transition-colors" />
               <Instagram className="w-3 h-3 hover:text-blue-300 cursor-pointer transition-colors" />
             </div>
-            <span className="text-xs font-medium hidden sm:inline">UNITED BY WATER</span>
+            <span className="text-xs font-medium hidden sm:inline">PROVINCIAL SPORTS</span>
           </div>
         </div>
       </div>

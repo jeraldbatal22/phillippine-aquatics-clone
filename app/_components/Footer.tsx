@@ -19,7 +19,7 @@ const Footer = () => {
         
         {/* Mobile Copyright */}
         <div className="mt-6 pt-4 border-t border-blue-800 text-center lg:hidden">
-          <p className="text-blue-200 text-xs">© 2025 Ilocos Sur, Inc. All rights reserved.</p>
+          <p className="text-blue-200 text-xs">© 2025 Provincial Sports Development Office - Ilocos Sur. All rights reserved.</p>
         </div>
       </div>
     </footer>

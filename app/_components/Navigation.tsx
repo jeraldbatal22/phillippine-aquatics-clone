@@ -52,14 +52,14 @@ const Navigation = () => {
             </a>
 
             <DropdownMenu
-              title="About PAI"
+              title="About"
               items={DROPDOWN_DATA.about}
               isActive={activeDropdown === "about"}
               onToggle={() => handleDropdownToggle("about")}
             />
 
             <DropdownMenu
-              title="Rankings"
+              title="Competitions"
               items={DROPDOWN_DATA.rankings}
               isActive={activeDropdown === "rankings"}
               onToggle={() => handleDropdownToggle("rankings")}
@@ -69,18 +69,18 @@ const Navigation = () => {
               href="#"
               className="text-gray-700 hover:text-[#1e3a8a] font-medium transition-colors"
             >
-              Athletes
+              Events
             </a>
 
             <DropdownMenu
-              title="Resources"
+              title="Programs"
               items={DROPDOWN_DATA.resources}
               isActive={activeDropdown === "resources"}
               onToggle={() => handleDropdownToggle("resources")}
             />
 
             <DropdownMenu
-              title="PAI Membership"
+              title="Registration"
               items={DROPDOWN_DATA.membership}
               isActive={activeDropdown === "membership"}
               onToggle={() => handleDropdownToggle("membership")}

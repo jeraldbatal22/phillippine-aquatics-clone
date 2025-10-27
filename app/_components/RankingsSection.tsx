@@ -13,28 +13,28 @@ interface RankingItem {
 
 const rankingItems: RankingItem[] = [
   {
-    id: "national",
-    title: "National Rankings",
-    gradientFrom: "from-red-500",
-    gradientTo: "to-yellow-500",
-    iconColor: "bg-red-600",
-    description: "NATIONAL RANKING OF SWIMMERS"
+    id: "basketball-standings",
+    title: "Basketball League",
+    gradientFrom: "from-orange-500",
+    gradientTo: "to-red-500",
+    iconColor: "bg-orange-600",
+    description: "LEAGUE STANDINGS"
   },
   {
-    id: "regional",
-    title: "Regional Rankings",
+    id: "volleyball-results",
+    title: "Volleyball Competitions",
+    gradientFrom: "from-blue-500",
+    gradientTo: "to-indigo-500",
+    iconColor: "bg-blue-600",
+    description: "TOURNAMENT RESULTS"
+  },
+  {
+    id: "athletics-competitions",
+    title: "Athletics Events",
     gradientFrom: "from-green-500",
-    gradientTo: "to-blue-500",
+    gradientTo: "to-emerald-500",
     iconColor: "bg-green-600",
-    description: "REGIONAL RANKING OF SWIMMERS"
-  },
-  {
-    id: "competitions",
-    title: "PAI Competitions",
-    gradientFrom: "from-purple-500",
-    gradientTo: "to-pink-500",
-    iconColor: "bg-purple-600",
-    description: "COMPETITIONS & EVENT RESULTS"
+    description: "COMPETITION RESULTS"
   }
 ];
 
@@ -71,8 +71,8 @@ const RankingsSection = () => {
       
       <div className="max-w-7xl mx-auto px-4 relative z-10">
         <div className="text-center mb-8 sm:mb-12">
-          <p className="text-blue-200 text-sm mb-2">Ilocos Sur, Inc</p>
-          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">Meet Results and Rankings</h2>
+          <p className="text-blue-200 text-sm mb-2">Competitions & Results</p>
+          <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-white">Meet Results & Rankings</h2>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">

@@ -2,6 +2,7 @@
 
 import { ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
+// import Image from "next/image";
 
 interface NewsItem {
   id: string;
@@ -15,31 +16,31 @@ interface NewsItem {
 
 const newsItems: NewsItem[] = [
   {
-    id: "water-polo-championships",
-    title: "66th Malaysia Open Water Polo Championships",
-    description: "The Ilocos Sur men's water polo team showcased exceptional performance, demonstrating skill and determination throughout the competition.",
-    buttonText: "Read More",
+    id: "provincial-games-2025",
+    title: "Ilocos Sur Provincial Games 2025",
+    description: "The 2025 Provincial Games are set to feature basketball, volleyball, athletics, and more at the Provincial Coliseum. All municipalities invited to participate!",
+    buttonText: "Register Now",
+    gradientFrom: "from-orange-500",
+    gradientTo: "to-orange-700",
+    iconColor: "bg-orange-600"
+  },
+  {
+    id: "basketball-championships",
+    title: "Inter-Municipal Basketball Championships",
+    description: "Watch the best teams compete in the annual basketball championships at the Provincial Stadium. Finals scheduled for March 2025 - don't miss the action!",
+    buttonText: "Buy Tickets",
     gradientFrom: "from-blue-500",
     gradientTo: "to-blue-700",
     iconColor: "bg-blue-600"
   },
   {
-    id: "women-water-polo",
-    title: "Congratulations to the Ilocos Sur Women's Open Water Polo Team!",
-    description: "Our women's team secured a silver medal, showcasing incredible teamwork and dedication in the international competition.",
-    buttonText: "Read More",
-    gradientFrom: "from-pink-500",
-    gradientTo: "to-purple-700",
-    iconColor: "bg-pink-600"
-  },
-  {
-    id: "swimming-tryouts",
-    title: "Ilocos Sur Open Water Swimming Tryouts 2025",
-    description: "Join us for the upcoming tryouts on August 30-31, 2025. Multiple distances available: 10KM, 5KM, and 3KM categories.",
-    buttonText: "Register Now",
-    gradientFrom: "from-cyan-500",
-    gradientTo: "to-blue-600",
-    iconColor: "bg-cyan-600"
+    id: "youth-training-program",
+    title: "Youth Sports Training Program 2025",
+    description: "Registration now open for the Youth Sports Development Program. Ages 8-18 welcome. Training sessions start February 2025 at the Provincial Stadium facilities.",
+    buttonText: "Apply Now",
+    gradientFrom: "from-green-500",
+    gradientTo: "to-teal-600",
+    iconColor: "bg-green-600"
   }
 ];
 
@@ -48,7 +49,7 @@ const NewsCard = ({ item }: { item: NewsItem }) => (
     className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300"
     whileHover={{ y: -5 }}
   >
-    <div className={`h-48 bg-linear-to-br ${item.gradientFrom} ${item.gradientTo} relative`}>
+    {/* <div className={`h-48 bg-linear-to-br ${item.gradientFrom} ${item.gradientTo} relative`}>
       <div className="absolute inset-0 bg-black/20"></div>
       <div className="absolute bottom-4 left-4 text-white">
         <div className="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center">
@@ -57,7 +58,7 @@ const NewsCard = ({ item }: { item: NewsItem }) => (
           </div>
         </div>
       </div>
-    </div>
+    </div> */}
     <div className="p-4 sm:p-6">
       <h3 className="text-lg sm:text-xl font-bold text-gray-800 mb-3 leading-tight">{item.title}</h3>
       <p className="text-gray-600 mb-4 text-sm sm:text-base">{item.description}</p>
@@ -76,7 +77,7 @@ const NewsSection = () => {
         {/* Section Title for Mobile */}
         <div className="text-center mb-8 lg:hidden">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-800 mb-2">Latest News & Events</h2>
-          <p className="text-gray-600">Stay updated with Ilocos Sur  </p>
+          <p className="text-gray-600">Stay updated with Provincial Sports Development Office</p>
         </div>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
