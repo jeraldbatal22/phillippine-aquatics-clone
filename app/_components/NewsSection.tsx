@@ -27,7 +27,7 @@ const newsItems: NewsItem[] = [
   {
     id: "basketball-championships",
     title: "Inter-Municipal Basketball Championships",
-    description: "Watch the best teams compete in the annual basketball championships at the Provincial Stadium. Finals scheduled for March 2025 - don't miss the action!",
+    description: "Watch the best teams compete in the annual basketball championships at the Provincial Stadium. Finals scheduled for March 2025 - don&apos;t miss the action!",
     buttonText: "Buy Tickets",
     gradientFrom: "from-blue-500",
     gradientTo: "to-blue-700",

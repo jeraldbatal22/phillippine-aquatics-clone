@@ -64,7 +64,7 @@ export const FAQ_DATA: FAQItem[] = [
   },
   {
     question: "Are there age restrictions for joining training programs?",
-    answer: "Training programs are available for different age groups: Kids (8-12 years), Juniors (13-17 years), and Seniors (18+ years). Each program is tailored to the specific age group's needs and skill levels."
+    answer: "Training programs are available for different age groups: Kids (8-12 years), Juniors (13-17 years), and Seniors (18+ years). Each program is tailored to the specific age group&apos;s needs and skill levels."
   },
   {
     question: "How do I register my team for provincial competitions?",

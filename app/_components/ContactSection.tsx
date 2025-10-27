@@ -41,7 +41,7 @@ const ContactSection = () => {
             transition={{ duration: 0.8 }}
           >
             <h3 className="text-xl sm:text-2xl font-bold text-gray-800 mb-2">Feel Free to Contact Us</h3>
-            <p className="text-gray-600 mb-6 text-sm sm:text-base">Get in touch with the Provincial Sports Development Office. We're here to assist you with facility bookings, athlete registration, and sports program inquiries.</p>
+            <p className="text-gray-600 mb-6 text-sm sm:text-base">Get in touch with the Provincial Sports Development Office. We&apos;re here to assist you with facility bookings, athlete registration, and sports program inquiries.</p>
             
             <form className="space-y-4">
               <div>
